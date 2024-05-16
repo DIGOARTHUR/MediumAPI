@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.title-container {
+  margin-bottom: 50px;
+}
+
+.title-container .title a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo:hover,
+.title h1:hover {
+  filter: drop-shadow(0 0 2em #ffffffaa);
+}
+
+.title-container .logo {
+  height: 8em;
+  padding: 1.5em;
+  will-change: filter;
+
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.body-container .card-container .data-container {
+  display: flex;
+  justify-content: end;
+}
+
+.body-container .card-container {
+  border: 2px solid rgba(255, 255, 255, 0.39);
+  border-radius: 25% 10%;
+  padding: 30px;
+}
+
+.body-container .card-container .link-container {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 15px;
+
+}
+
+
+.body-container .card-container .categories-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  font-family: "Times New Roman", Times, serif;
+
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+.rodapé {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
