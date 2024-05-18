@@ -60,8 +60,8 @@ docs: update README.md
         const items = data.items;
         setDataMedium(items);
 
-      } catch {
-        console.log(true);
+      } catch (error) {
+        console.log(error)
       }
     }
 
