@@ -29,11 +29,64 @@
 
 }
 
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  gap: 5px;
+}
+
+
+.input-container .input {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(196, 196, 196, 0.767);
+  border-color: rgb(243, 240, 240);
+  text-align: center;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+
+.input-container .input::placeholder {
+  color: white;
+  text-align: center;
+
+
+}
+
+.input-container .input:focus {
+  border: 5px solid #8b8b8b;
+
+}
+
+.input-container button {
+  background-color: #28A745;
+  height: 42px;
+}
+
 .body-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  align-items: center;
 }
+
+.body-container .body-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+
+
 
 .body-container .card-container .data-container {
   display: flex;
@@ -57,6 +110,10 @@
 }
 
 
+.body-container .card-container {
+  width: 740px;
+}
+
 .body-container .card-container .categories-container {
   display: flex;
   justify-content: center;
@@ -67,7 +124,9 @@
   font-size: 18px;
 }
 
-
+.body-container .requestNotification {
+  color: #ff6347;
+}
 
 
 
